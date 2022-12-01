@@ -11,9 +11,9 @@ Yo siempre he sido muy apasionado por mis finanzas personales y siempre las he t
 Aqui pegare como tenia pensado como hacer este proyecto(las fases):
 
 1) Crear script que se conecte a Gmail
-	a) crear API conection con el mail
+	- crear API conection con el mail
 2) Query los correos por combinaciones (BPD,APAP,BHD)
-	a) Separar como sea necesario
+	- Separar como sea necesario
 3) Cuando el query arroje los resultados deseados entonces tomar uno o dos ejemplos, para crear el proceso de leer y asignar en un dataframe o lista
 4) Luego que el proceso este creado, vectorizar este proceso para que loopee por los resultados ya obtenidos
 5) Verificar los resultados con los diferentes querys en DFs o listas
