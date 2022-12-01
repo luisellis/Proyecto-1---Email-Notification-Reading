@@ -1,0 +1,18 @@
+Este es mi primer proyecto personal de programación: Este es una idea que tenía desde hace mucho tiempo y es poder leer las notificaciones de los correos de notificación de gastos de los bancos.
+
+La idea es crear un script que los lea, los procese y se quede con la información imporante de los correos para crear una base de datos de gastos.
+
+Lo haré en R porque es el lenguaje de programación que me siento comodo.
+
+Fases:
+1) Crear script que se conecte a Gmail
+	a) crear API conection con el mail
+2) Query los correos por combinaciones (BPD,APAP,BHD)
+	a) Separar como sea necesario
+3) Cuando el query arroje los resultados deseados entonces tomar uno o dos ejemplos, para crear el proceso de leer y asignar en un dataframe o lista
+4) Luego que el proceso este creado, vectorizar este proceso para que loopee por los resultados ya obtenidos
+5) Verificar los resultados con los diferentes querys en DFs o listas
+6) Crear catalogo de: Tipo de gastos, Monedas y demas catalogos necesarios.
+7) Combinar los catalogos y la data
+8) Crear un dataset maestro para G. Sheets o PBI
+9) Diseñar lindo reporte para poner como resultado final 
